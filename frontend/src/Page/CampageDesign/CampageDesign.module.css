@@ -1,0 +1,113 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.heading {
+    background-color: #f0f0f0;
+    padding: 2% 3%;
+    text-align: center;
+}
+
+.title {
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: #212934;
+    line-height: 1.4;
+}
+
+.subtitle {
+    font-size: 1.2vw;
+    color: #4a4e57;
+    margin-top: 0.5em;
+}
+
+.content {
+    padding: 2% 5%;
+}
+
+.box {
+    background-color: #e2e2e2;
+    padding: 3% 5%;
+    margin-bottom: 5%;
+}
+
+.p {
+    font-size: 1.6vw;
+    color: #383838;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.sectionTitle {
+    font-size: 3vw;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.greenText {
+    color: #2b8a3e;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    gap: 1%;
+}
+
+
+.image {
+    width: 30%;
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 6vw;
+    }
+
+    .subtitle {
+        font-size: 3vw;
+    }
+
+    .p {
+        font-size: 4vw;
+    }
+
+    .sectionTitle {
+        font-size: 5vw;
+    }
+
+    .content2 {
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 8vw;
+    }
+
+    .subtitle {
+        font-size: 4vw;
+    }
+
+    .p {
+        font-size: 5vw;
+    }
+
+    .sectionTitle {
+        font-size: 6vw;
+    }
+}

@@ -1,0 +1,101 @@
+.Footer {
+    width: 100%;
+    background-color: #004c4c;
+    padding: 1%;
+
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+
+    .Footer {
+        flex-direction: column;
+    }
+    
+}
+
+.Footer .child1 {
+    width: 50%;
+    padding-top: 2em;
+}
+
+@media screen and (max-width:768px) {
+
+    .Footer .child1 {
+        width: 100%;
+        padding-top: 2em;
+    }
+    
+}
+
+
+.address{
+    margin-top: 4em;
+}
+
+
+.address p {
+    color: white;
+    margin-top: 1em;
+    text-align: start;
+}
+
+@media screen and (max-width:768px) {
+    .address p {
+       font-size: 5vw;
+    }
+}
+
+.icon{
+    margin-top: 2em;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width:768px) {
+
+    .icon{
+        font-size: 5vw;
+        justify-content: space-around;
+    }
+}
+
+.icon1,.icon2,.icon3,.icon4{
+    cursor: pointer;
+}
+
+
+.child2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: end;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .child2{
+        width: 100%;
+    }
+    
+}
+
+.bottom{
+    width: 100%;
+    background-color: #004c4c;
+    padding: 1%;
+}
+
+
+.bottom p{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+    font-size: 1.5em;
+}
